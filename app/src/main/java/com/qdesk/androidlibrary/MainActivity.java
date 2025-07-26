@@ -2,30 +2,29 @@ package com.qdesk.androidlibrary;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import com.qdesk.myutils.Logger;
 import com.qdesk.toasty.Toaster;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
 
-        Toaster.simpleToast(this,"Hello this is my first android library...");
+        // Simple toast
+        Toaster.show(this, "Hello from Toaster library!");
 
-        Logger.log("Hello from My Java Logger!");
+        // Success toast (green background with checkmark)
+        Toaster.success(this, "Operation successful!");
+
+        // Error toast (red background with error icon)
+        Toaster.error(this, "Something went wrong");
+
+        // Warning toast (orange background with warning icon)
+        Toaster.warning(this, "Please check your input");
+
+        // Info toast (blue background with info icon)
+        Toaster.info(this, "New update available");
     }
 }
