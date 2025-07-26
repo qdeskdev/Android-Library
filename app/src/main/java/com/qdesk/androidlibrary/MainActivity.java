@@ -8,6 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.qdesk.myutils.Logger;
 import com.qdesk.toasty.Toaster;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-
         Toaster.simpleToast(this,"Hello this is my first android library...");
+
+        Logger.log("Hello from My Java Logger!");
     }
 }

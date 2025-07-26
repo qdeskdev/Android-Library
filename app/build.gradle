@@ -39,4 +39,6 @@ dependencies {
     androidTestImplementation libs.espresso.core
 
     implementation project(path: ":toasty")
+
+    implementation 'com.github.qdeskdev:HelloAndroid:1.0.0'
 }
