@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Toaster.error(this, "Something went wrong");
 
         // Warning toast (orange background with warning icon)
-        Toaster.warning(this, "Please check your input");
+        Toaster.warning(    this, "Please check your input");
 
         // Info toast (blue background with info icon)
         Toaster.info(this, "New update available");
