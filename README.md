@@ -3,7 +3,7 @@
 [![](https://jitpack.io/v/qdeskdev/Android-Library.svg)](https://jitpack.io/#qdeskdev/Android-Library)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-A lightweight Android library to simplify your development process.
+A lightweight Android toast library to simplify your toast in development process.
 
 ## Installation 💻
 
@@ -35,7 +35,7 @@ dependencyResolutionManagement {
 ### 2. Add Dependency
 ```gradle
 dependencies {
-    implementation 'com.github.qdeskdev:Android-Library:1.0.1'
+    implementation 'com.github.qdeskdev:Android-Library:1.0.2'
 }
 
 ```
