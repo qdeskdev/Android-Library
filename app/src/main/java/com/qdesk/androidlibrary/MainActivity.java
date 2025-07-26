@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.qdesk.myutils.Logger;
 import com.qdesk.toasty.Toaster;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,5 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Info toast (blue background with info icon)
         Toaster.info(this, "New update available");
+
+        Logger.log("Hello from My Java Logger!");
     }
 }
