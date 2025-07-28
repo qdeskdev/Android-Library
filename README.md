@@ -19,10 +19,17 @@ A modern, lightweight Android toast library that brings beautiful, customizable 
 
 ## 📱 Preview
 
-| Success | Error | Warning | Info |
-|---------|-------|---------|------|
-| ![Success Toast](<img width="196" height="70" alt="image" src="https://github.com/user-attachments/assets/a97ed1d2-48cf-4808-9c5c-7a15566be7c5" />) | ![Error Toast](https://via.placeholder.com/200x60/F44336/FFFFFF?text=✗+Error) | ![Warning Toast](https://via.placeholder.com/200x60/FF9800/FFFFFF?text=⚠+Warning) | ![Info Toast](https://via.placeholder.com/200x60/2196F3/FFFFFF?text=ℹ+Info) |
-<img width="196" height="70" alt="image" src="https://github.com/user-attachments/assets/9b97cbfc-7cb5-42c1-b09b-ef446336bf87" />
+| Success | Error | Warning | Info | Default |
+|---------|-------|---------|------|---------|
+<p align="center">
+  <img width="190" height="62" alt="image" src="https://github.com/user-attachments/assets/9b97cbfc-7cb5-42c1-b09b-ef446336bf87" />
+  <img width="196" height="70" alt="image" src="https://github.com/user-attachments/assets/fed31728-5081-4d92-8a36-2cbc286d302d" />
+  <img width="196" height="70" alt="image" src="https://github.com/user-attachments/assets/335750da-67a5-4b8a-9a7d-d063e935ba9c" />
+  <img width="190" height="62" alt="image" src="https://github.com/user-attachments/assets/4e97ccef-0fad-4653-ac95-527fdd8510e3" />
+  <img width="196" height="76" alt="image" src="https://github.com/user-attachments/assets/1b3b31e2-68f2-4739-9a7e-60a503fe53be" />
+
+</p>
+
 
 ## 🚀 Installation
 
@@ -126,6 +133,22 @@ Toaster.info(this, "Swipe left to access quick actions");
 // Status updates
 Toaster.info(this, "Sync completed. All data is up to date");
 ```
+
+
+#### ℹ️ Default Toast
+Show default information and confirmation:
+```java
+// Basic informational message
+Toaster.default(this, "Just a quick note for you");
+
+// Feature tip
+Toaster.default(this, "Tip: Swipe left to reveal quick actions");
+
+// Status update
+Toaster.default(this, "You're all synced! Everything is up to date");
+
+```
+
 
 ## 🔧 Advanced Usage
 
