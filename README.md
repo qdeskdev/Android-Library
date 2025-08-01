@@ -39,14 +39,11 @@ Add this powerful toast library to your project in just 2 simple steps:
 
 **For Gradle 7.0+ (settings.gradle):**
 ```gradle
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
+  repositories {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
     }
-}
 ```
 
 **For older projects (root build.gradle):**
