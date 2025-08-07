@@ -27,7 +27,6 @@ A modern, lightweight Android toast library that brings beautiful, customizable 
   <img width="196" height="70" alt="image" src="https://github.com/user-attachments/assets/335750da-67a5-4b8a-9a7d-d063e935ba9c" />
   <img width="190" height="62" alt="image" src="https://github.com/user-attachments/assets/4e97ccef-0fad-4653-ac95-527fdd8510e3" />
   <img width="196" height="76" alt="image" src="https://github.com/user-attachments/assets/1b3b31e2-68f2-4739-9a7e-60a503fe53be" />
-
 </p>
 
 
