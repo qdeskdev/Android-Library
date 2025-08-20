@@ -267,7 +267,7 @@ If this library helped you build better Android apps, please consider giving it 
 
 <div align="center">
 
-**Made with ❤️ by [QDesk](https://github.com/qdeskdev)**
+**Made with ❤️ by [QDeskDev](https://github.com/qdeskdev)**
 
 *Happy coding! 🚀*
 
